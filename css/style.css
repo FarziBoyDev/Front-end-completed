@@ -1,0 +1,62 @@
+.gradient-background {
+    background: linear-gradient(90deg, #1d1616, #be1616, #d84040);
+    background-size: 240% 240%;
+    animation: gradient-animation 9s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+#my-pic{
+    border-radius: 50%;
+    height: 150px;
+}
+#hero p, #hero h1{
+  color: #eeeeee;
+}
+#hero span{
+  font-size: 15px;
+  font-weight: 200;
+}
+a {
+  color: inherit; /* Inherits the color from its parent */
+  text-decoration: none; /* Removes the underline */
+  }
+#img-logo{
+  object-fit:scale-down;
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  padding-top: 5px;
+}
+h2{
+  text-align: center;
+  padding-top: 0px;
+  color: #eeeeee;
+}
+
+.img-intrst{
+  height: 180px;
+  width: 180px;
+  object-fit:fill;
+  margin: 5px;
+}
+#hero{
+  background-color: #1d1616;
+}
+section>h2{
+  background-color: #1d1616b0;
+}
+hr{
+  margin: 0;
+  padding: 0;
+}
+
